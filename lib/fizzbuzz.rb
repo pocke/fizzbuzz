@@ -1,4 +1,5 @@
 require "fizzbuzz/version"
+require 'fizzbuzz/cli'
 
 module Fizzbuzz
   def self.fizzbuzz(n)
