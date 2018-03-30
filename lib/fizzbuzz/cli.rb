@@ -2,7 +2,7 @@ module Fizzbuzz
   module CLI
     def self.run(argv, output: $stdout)
       unless argv.size == 1
-        output.puts "fizzbuzzには数値を1つ渡してください"
+        output.puts "数値を1つ渡してください"
         return 1
       end
 
